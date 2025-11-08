@@ -22,6 +22,11 @@ public class AnimationController : MonoBehaviour
         }
     }
 
+    public void Defend()
+    {
+        //Defend Logic
+    }
+
     public void Attack()
     {
         animator.SetBool("IsAttacking", true);
