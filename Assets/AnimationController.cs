@@ -9,6 +9,7 @@ public class AnimationController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.O))
         {
             Attack();
+            Debug.Log("Hi");
         }
         else
         {
